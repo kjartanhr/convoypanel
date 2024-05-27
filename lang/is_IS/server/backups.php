@@ -1,30 +1,30 @@
 <?php
 
 return [
-    'create_backup' => 'Create Backup',
-    'empty_state' => 'There are no backups',
-    'counter_tooltip' => 'You\'ve made :count out of :max backups',
+    'create_backup' => 'Taka afrit',
+    'empty_state' => 'Það eru engin afrit',
+    'counter_tooltip' => 'Þú hefur tekið :count af :max afritum.',
     'create_modal' => [
-        'title' => 'Create a Backup',
-        'description' => 'Creating a backup will take a copy of your server files. This can take a while depending on the size of your server.',
-        'compression_type' => 'Compression Type',
-        'mode' => 'Mode',
+        'title' => 'Taka afrit',
+        'description' => 'Að taka afrit mun afrita allar skrár á þjóninum þínum. Það má vera að ferlið taki lengri tíma eftir stærðinni á þjóninum þínum.',
+        'compression_type' => 'Gerð þjöppunar',
+        'mode' => 'Hamur',
         'modes' => [
-            'snapshot' => 'Snapshot',
-            'suspend' => 'Suspend',
-            'kill' => 'Kill',
+            'snapshot' => 'Skyndimynd',
+            'suspend' => 'Frysta',
+            'kill' => 'Drepa á',
         ],
     ],
     'delete_modal' => [
-        'title' => 'Delete :name?',
-        'description' => 'Are you sure you want to delete this backup?',
+        'title' => 'Eyða :name?',
+        'description' => 'Ertu viss um að þú viljir eyða þessu afriti?',
     ],
     'restore_modal' => [
-        'title' => 'Restore From :name?',
-        'description' => 'Are you sure you want to restore from this backup?',
+        'title' => 'Endurheimta :name?',
+        'description' => 'Ertu viss um að þú viljir endurheimta frá þessu afriti?',
     ],
     'notices' => [
-        'backup_deleted' => 'Deleted :name',
-        'backup_restored' => 'Began restoring server from :name',
+        'backup_deleted' => 'Eyddi :name',
+        'backup_restored' => 'Byrjaði endurheimtun frá :name',
     ],
 ];
