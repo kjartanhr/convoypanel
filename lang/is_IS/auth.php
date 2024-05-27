@@ -13,11 +13,11 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'failed' => 'Þessi skilríki stemma ekki við okkar gögn.',
+    'password' => 'Rangt lykilorð.',
+    'throttle' => 'Of margar innskráningartilraunir. Vinsamlegast reynið aftur eftir :seconds sekúndur.',
 
-    'sign_in' => 'Sign in',
-    'sign_out' => 'Sign out',
-    'sign_in_description' => 'Sign in to your account',
+    'sign_in' => 'Skrá inn',
+    'sign_out' => 'Skrá út',
+    'sign_in_description' => 'Skráðu þig inn á reikninginn þinn',
 ];
