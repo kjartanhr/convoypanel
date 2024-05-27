@@ -2,37 +2,37 @@
 
 return [
     'power_actions' => [
-        'start' => 'Start',
-        'restart' => 'Restart',
-        'kill' => 'Kill',
-        'shutdown' => 'Shutdown',
+        'start' => 'Ræsa',
+        'restart' => 'Endurræsa',
+        'kill' => 'Drepa á',
+        'shutdown' => 'Slökkva',
     ],
     'notices' => [
-        'power_action_sent_success' => 'Successfully sent power action. It may take a moment to process.',
-        'power_action_sent_fail' => 'Failed to send power action.',
+        'power_action_sent_success' => 'Beiðnin hefur verið send. Það má vera að úrvinnsla hennar taki andartak.',
+        'power_action_sent_fail' => 'Það tókst ekki að senda beiðnina.',
     ],
 
-    'state' => 'State',
+    'state' => 'Staða',
     'states' => [
-        'stopped' => 'Stopped',
-        'running' => 'Running',
-        'stopping' => 'Stopping',
-        'starting' => 'Starting',
-        'shutting_down' => 'Shutting Down',
+        'stopped' => 'Slökkt',
+        'running' => 'Í gangi',
+        'stopping' => 'Drepur á',
+        'starting' => 'Ræsir',
+        'shutting_down' => 'Slekkur',
     ],
-    'uptime' => 'Uptime',
-    'poll_status_error' => 'Failed to poll server status. Retrying in 5 seconds...',
+    'uptime' => 'Uppitími',
+    'poll_status_error' => 'Það tókst ekki að sækja stöðu þjónsins. Reyni aftur eftir 5 sekúndur...',
 
     'terminal' => [
-        'title' => 'Terminal',
-        'description' => 'Remotely manage your server from the web.',
-        'novnc_description' => 'Best for compatibility but lacks features and performance.',
-        'xtermjs_description' => 'Best for performance but doesn\'t work for every operating system.',
+        'title' => 'Skipanalína',
+        'description' => 'Fjarstjórnaðu þjóninum í gegnum vefinn.',
+        'novnc_description' => 'Virkar með flestum stýrikerfum en er afkastaminna.',
+        'xtermjs_description' => 'Afkastamikið en virkar ekki með öllum stýrikerfum.',
     ],
 
     'server_config' => [
-        'title' => 'Configure This Server',
-        'description' => 'You are an administrator! You can click below to visit this server\'s build configuration and make edits.',
-        'configure_server' => 'Configure Server',
+        'title' => 'Stilltu þjóninn',
+        'description' => 'Þú ert stjórnandi! Þú getur smellt að neðan til að skoða byggingarstillingar þjónsins og breyta þeim.',
+        'configure_server' => 'Stilla þjón',
     ],
 ];
