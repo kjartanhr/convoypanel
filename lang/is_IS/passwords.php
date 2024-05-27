@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have emailed your password reset link!',
-    'throttled' => 'Please wait before retrying.',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that email address.",
+    'reset' => 'Lykilorðinu þínu hefur verið breytt!',
+    'sent' => 'Við höfum sent þér hlekk til að breyta lykilorðinu þínu!',
+    'throttled' => 'Vinsamlegast bíðið áður en reynt er aftur.',
+    'token' => 'Þessi hlekkur er ógildur.',
+    'user' => 'Við finnum engan notanda með þetta netfang.',
 
 ];
